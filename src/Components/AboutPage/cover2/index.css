@@ -1,0 +1,47 @@
+.cover2{
+    background: url('../../../Assets/about/Website-2-3.png') center center no-repeat;
+    background-size: cover;
+    padding: 70px 160px;
+    color: #ffffff;
+}
+
+.cover2 h2{
+    font-size: 27px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cover2 p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.cover2-text{
+    padding: 30px 150px 20px 150px;
+}
+#cover2-btn{
+    border: 1px solid #ffffff;
+    padding: 12px 36px;
+    background-color: transparent;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#cover2-btn:hover{
+    color: #247ba0;
+    background-color: #ffffff;
+
+}
+
+@media (max-width: 968px){
+    .cover2{
+    padding: 70px 15px;
+
+    }
+    .cover2-text{
+        padding: 30px 15px 20px 15px;
+    }
+}

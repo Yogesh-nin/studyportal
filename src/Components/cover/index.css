@@ -1,0 +1,39 @@
+.cover{
+    background: url('../../Assets/cover.jpg') center center no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 200px 175px;
+}
+.cover h3{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.cover p{
+    font-size: 16px;
+    color: #eeeeee;
+    font-weight: 400;
+    text-align: center;
+}
+#orange-btn{
+    background-color: #f95c39;
+    border-color: #f95c39;
+    padding: 12px 36px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#orange-btn:hover{
+  background-color: #d3411b;
+  border-color: #d3411b;
+}
+
+@media (max-width: 576px){
+    .cover{
+    padding: 200px 15px;
+        
+    }
+}

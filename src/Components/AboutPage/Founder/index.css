@@ -1,0 +1,41 @@
+.founder-container{
+    padding: 70px 160px 40px 160px;
+    background-color: #EEEEEE;
+}
+.founder-container h2{
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.title{
+    margin-top: 40px ;
+    color: #247ba0;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 100;
+}
+#team-btn{
+    border: 1px solid #f95c39;
+    background-color: transparent;
+    color: #f95c39;
+    padding: 12px 36px;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#team-btn:hover{
+    background-color: #f95c39;
+    color: #ffffff;
+}
+
+@media (max-width: 968px){
+    .founder-container{
+    padding: 70px 15px 40px 15px;
+
+    }
+}

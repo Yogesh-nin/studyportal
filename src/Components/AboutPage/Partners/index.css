@@ -1,0 +1,22 @@
+.partner-section{
+    padding: 35px 160px;
+}
+
+.partner-section h3{
+    text-align: center;
+    padding: 3px 15px;
+    margin-bottom: 40px;
+}
+
+.partner-section p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 968px){
+    .partner-section{
+        padding: 35px 15px;
+    }
+}

@@ -1,0 +1,33 @@
+.awards-section{
+    background-color: #eeeeee;
+    padding: 73px 160px 38px 160px;
+}
+.awards-section h2{
+    font-size: 30px;
+    line-height: 42px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.award-img{
+    /* overflow: hidden; */
+    margin-right: 5px;
+}
+
+.award-img p{
+    text-align: center;
+    color: #247ba0;
+    margin-top: 33px;
+
+}
+
+.award-img p:hover{
+    color: #0078a0;
+}
+
+@media (max-width: 968px){
+    .awards-section{
+    padding: 73px 15px 38px 15px;
+
+    }
+}

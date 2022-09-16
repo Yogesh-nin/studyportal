@@ -1,0 +1,44 @@
+.hero-2{
+    padding: 30px 160px;
+}
+.hero-2 h3{
+    font-size: 30px;
+    line-height: 42px;
+    color: #222222;
+    margin-bottom: 30px;
+}
+
+.hero-2 p{
+    font-size: 18px;
+    color: #222222;
+    font-weight: 100;
+    line-height: 29px;
+}
+
+.hero-2-col{
+    padding: 3px 15px;
+}
+
+.hero-2-image{
+    padding: 0px 57px;
+}
+
+@media (max-width: 968px){
+    .hero-2{
+        padding: 30px 15px;
+    }
+
+    .hero-2-image{
+        padding: 0px 15px;
+    } 
+}
+
+@media (max-width: 576px){
+    .hero-2{
+        padding: 30px 15px;
+    }
+
+    .hero-2-image{
+        padding: 0px 15px;
+    }
+}

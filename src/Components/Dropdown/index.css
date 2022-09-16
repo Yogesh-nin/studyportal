@@ -1,0 +1,9 @@
+#dropdown{
+    color: #666666;
+    font-size: 17px;
+    /* line-height: 88px; */
+    font-weight: 100;
+}
+#dropdown:hover{
+    color: #f95c39;
+}

@@ -1,0 +1,48 @@
+.about-cover-container{
+    background: url('../../../Assets/about/cover.png')  center center no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 110px 160px;
+}
+
+.about-cover-container h1{
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 400;
+    margin: 3px 15px 30px 15px;
+}
+
+.cover-text{
+    padding: 35px 160px;
+}
+
+.cover-text p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    color: #222222;
+    line-height: 29px;
+}
+
+.cover-text strong{
+    font-weight: 700;
+}
+
+.cover-text .text-link{
+    color: #0078a0;
+    cursor: pointer;
+}
+
+.read-more{
+    margin: 33px 0px 33px 0px;
+}
+
+@media (max-width: 968px){
+    .about-cover-container{
+        padding: 110px 15px;
+    }
+
+    .cover-text{
+        padding: 35px 15px;
+    }
+}
