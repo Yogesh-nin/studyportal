@@ -23,7 +23,7 @@ const NavbarComponent = () => {
     <Navbar sticky="top" expand="lg" className={`px-4 navbar ${height}`}>
           <Container className="px-4">
             
-            <Navbar.Brand href="">
+            <Navbar.Brand href="/">
                 <span className="d-block d-md-none small-logo"></span>
                 <img className="d-none d-md-block" src={logo} width="263px" height="61px" alt="" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />
@@ -41,7 +41,7 @@ const NavbarComponent = () => {
                 <Nav className="justify-content-center flex-grow-1 pe-3 align-items-center">
 
                   {/* About */}
-                  <DropdownComponent title="About" items={["About Us", " Our Story", " Team", "Partners", "Advisory Board"]} />
+                  <Link className='text-decoration-none' to="/about-us"><DropdownComponent title="About" items={["About Us", " Our Story", " Team", "Partners", "Advisory Board"]} /></Link>
 
                   {/* For Studennts */}
                   <DropdownComponent title="For Students" items={["Study Options", "StudyPortals Scholarship", " What Our students Say"]} />
